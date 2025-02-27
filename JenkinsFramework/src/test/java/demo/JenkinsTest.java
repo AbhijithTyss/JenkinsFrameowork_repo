@@ -11,5 +11,6 @@ public class JenkinsTest {
 		WebDriver driver=new ChromeDriver();
 		
 		Reporter.log("JenkinsTest class executed",true);
+		Reporter.log("On Poll Scm executed",true);
 	}
 }
